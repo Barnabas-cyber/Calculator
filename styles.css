@@ -1,0 +1,32 @@
+/* styling */
+body {
+    padding: 0;
+    margin: 0;    
+}
+/* calculator-grid styling */
+.calculator-grid{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+}
+
+.calculator-grid > button{
+    cursor: pointer;
+    font-size: 2rem;
+    border: 5px solid rgb(0, 0, 0);
+    outline: none;
+    background-color: rgba(255, 255, 255, .75);
+}
+
+.calculator-grid > button:hover {
+    background-color: rgba(255, 255, 255, .9);
+}
+/* AC span */
+.span-two {
+    grid-column: span 2;
+}
+
+/* output */
