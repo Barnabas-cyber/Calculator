@@ -18,15 +18,34 @@ body {
     font-size: 2rem;
     border: 5px solid rgb(0, 0, 0);
     outline: none;
-    background-color: rgba(255, 255, 255, .75);
+    /* background-color: rgba(255, 255, 255, .75); */
 }
 
 .calculator-grid > button:hover {
     background-color: rgba(255, 255, 255, .9);
 }
-/* AC span and equal sign */
+/* AC span and 0 */
 .span-two {
     grid-column: span 2;
+    background-color: rgb(40, 165, 40);
 }
-
+/* adding colors */
+.numbers {
+    background-color: rgb(40, 165, 40);
+}
+.operands{
+    background-color: #ffa500;
+}
 /* output */
+.output{
+    grid-column: 1/-1;
+    display: flex;
+    background-color: rgb(128, 128, 128);
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    word-break: break-all;
+    word-wrap: break-word;
+    border: 7px solid black;
+}
