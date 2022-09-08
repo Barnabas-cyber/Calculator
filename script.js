@@ -45,7 +45,7 @@ class Calculator {
     //update display
 
 }
-console.log(addition(5, 10));
+// console.log(addition(5, 10));
 //varibales representing buttons
 let numberButttons = document.querySelectorAll('[data-number]')
 let operationButtons = document.querySelectorAll('[data-opeartion]')
