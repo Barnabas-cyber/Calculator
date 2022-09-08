@@ -40,6 +40,10 @@ class Calculator {
 
     }
 
+    //display number as a float or integer
+
+    //update display
+
 }
 console.log(addition(5, 10));
 //varibales representing buttons
