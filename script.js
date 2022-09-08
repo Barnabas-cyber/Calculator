@@ -56,3 +56,17 @@ let currentOperandTextElement = document.querySelector['data-current-operand']
 let previousOperandTextElement = document.querySelector['data-previous-operand']
 
 const calculator = new Calculator(previousOperandTextElement, currentOperandTextElement)
+
+//event listeners to the button(s)
+//clear all button
+clearAllButton.addEventListener('click', button => {
+    calculator.clear();
+})
+
+//number buttons
+
+//equals button
+
+//delete button
+
+//operand buttons
